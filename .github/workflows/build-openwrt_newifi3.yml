@@ -21,8 +21,8 @@ on:
       - 'newifi3.config'
   schedule:
    - cron: 0 0 * * *
-  watch:
-    types: started
+#  watch:
+ #   types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
